@@ -28,7 +28,7 @@ Le fichier `CNAME.example` est fourni volontairement sans activation.
 Une fois `endursys.fr` acheté et les DNS configurés, le renommer en `CNAME` puis pousser le changement.
 
 ## Formulaire
-Le formulaire utilise FormSubmit vers `l.garnier@hotmail.com` et redirige vers `https://endursys.fr/merci.html`.
+Le formulaire utilise FormSubmit vers `endursys@outlook.com` et redirige vers `https://endursys.fr/merci.html`.
 Si le domaine n'est pas encore actif lors des tests GitHub Pages, modifier temporairement `_next` dans `contact.html` vers l'URL GitHub Pages de test.
 
 ## Points à vérifier avant publication finale
@@ -36,3 +36,10 @@ Si le domaine n'est pas encore actif lors des tests GitHub Pages, modifier tempo
 - Réception d'un test réel du formulaire.
 - Exactitude des mentions légales / TVA.
 - Confidentialité des chiffres des études de cas (déjà validés par Laurent dans la conversation source).
+
+
+## Mise à jour visuelle et études de cas
+- Visuels locaux originaux, sans photo client ni dépendance externe.
+- Les trois études de cas ont été resserrées en format Situation / Risque / Intervention / Impact.
+- Adresse de contact et endpoint FormSubmit : `endursys@outlook.com`.
+- Lors du premier envoi FormSubmit vers cette adresse, confirmer l’activation reçue sur la boîte EndurSys si FormSubmit la demande.
