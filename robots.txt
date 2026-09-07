@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /merci.html
 
-Sitemap: https://www.endursys.fr/sitemap.xml
+Sitemap: https://endursys.fr/sitemap.xml

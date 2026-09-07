@@ -1,0 +1,11 @@
+CHECKLIST AVANT PUSH
+[ ] Ouvrir index.html localement
+[ ] Tester navigation desktop + mobile
+[ ] Vérifier études de cas et chiffres
+[ ] Vérifier contact.html / email FormSubmit
+[ ] Tester merci.html
+[ ] Vérifier sitemap.xml et robots.txt
+[ ] Si domaine actif : renommer CNAME.example -> CNAME
+[ ] Commit / push GitHub
+[ ] Activer GitHub Pages main / root
+[ ] Tester HTTPS et formulaire sur URL publique
