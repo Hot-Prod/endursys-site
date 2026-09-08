@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061725"/><stop offset="1" stop-color="#164c69"/></linearGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfdfe"/><stop offset="1" stop-color="#c1d3dc"/></linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+<g opacity=".14" stroke="#89ddf0"><path d="M0 115H1200M0 255H1200M0 395H1200M0 535H1200M0 675H1200"/><path d="M120 0V760M320 0V760M520 0V760M720 0V760M920 0V760M1120 0V760"/></g>
+<!-- line conveyor -->
+<g transform="translate(70 530)"><rect x="0" y="0" width="1000" height="54" rx="16" fill="#9eb1bb"/><g fill="#314c5a"><circle cx="80" cy="58" r="24"/><circle cx="260" cy="58" r="24"/><circle cx="440" cy="58" r="24"/><circle cx="620" cy="58" r="24"/><circle cx="800" cy="58" r="24"/><circle cx="980" cy="58" r="24"/></g></g>
+<!-- robot component states -->
+<g>
+ <g transform="translate(92 230) scale(.72)" opacity=".72"><rect x="78" y="20" width="190" height="132" rx="62" fill="url(#body)"/><rect x="111" y="58" width="124" height="54" rx="24" fill="#0c2738"/><circle cx="145" cy="84" r="9" fill="#5ed6ee"/><circle cx="196" cy="84" r="9" fill="#5ed6ee"/><path d="M95 174q79-35 158 0l33 194q-112 58-224 0z" fill="url(#body)"/><path d="M92 226L38 361M257 226l58 135" stroke="#d9e7ed" stroke-width="34" stroke-linecap="round"/><path d="M127 379l-18 112M218 379l20 112" stroke="#d9e7ed" stroke-width="40" stroke-linecap="round"/></g>
+ <g transform="translate(365 164) scale(.9)"><rect x="78" y="20" width="190" height="132" rx="62" fill="url(#body)" stroke="#77bfd6" stroke-width="4"/><rect x="111" y="58" width="124" height="54" rx="24" fill="#0c2738"/><circle cx="145" cy="84" r="9" fill="#5ed6ee"/><circle cx="196" cy="84" r="9" fill="#5ed6ee"/><path d="M95 174q79-35 158 0l33 194q-112 58-224 0z" fill="url(#body)" stroke="#75b8cf" stroke-width="4"/><circle cx="174" cy="275" r="21" fill="#168fbe"/><path d="M92 226L38 361M257 226l58 135" stroke="#d9e7ed" stroke-width="34" stroke-linecap="round"/><path d="M127 379l-18 112M218 379l20 112" stroke="#d9e7ed" stroke-width="40" stroke-linecap="round"/></g>
+ <g transform="translate(760 235) scale(.68)" opacity=".78"><rect x="78" y="20" width="190" height="132" rx="62" fill="url(#body)"/><rect x="111" y="58" width="124" height="54" rx="24" fill="#0c2738"/><circle cx="145" cy="84" r="9" fill="#5ed6ee"/><circle cx="196" cy="84" r="9" fill="#5ed6ee"/><path d="M95 174q79-35 158 0l33 194q-112 58-224 0z" fill="url(#body)"/><path d="M92 226L38 361M257 226l58 135" stroke="#d9e7ed" stroke-width="34" stroke-linecap="round"/><path d="M127 379l-18 112M218 379l20 112" stroke="#d9e7ed" stroke-width="40" stroke-linecap="round"/></g>
+</g>
+<!-- performance curve -->
+<path d="M105 638C365 630 605 586 1065 205" fill="none" stroke="#59d7ef" stroke-width="9" stroke-linecap="round"/>
+<path d="M1028 207l53-15-18 50" fill="none" stroke="#59d7ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Segoe UI,Arial" font-weight="700"><rect x="752" y="80" width="350" height="102" rx="20" fill="#071a2b" opacity=".88"/><text x="781" y="122" fill="#d7f3fa" font-size="27">20 → 140 robots / semaine</text><text x="781" y="158" fill="#61d7ee" font-size="27">FPY ≈ 50 % → 99 %</text></g>
+</svg>

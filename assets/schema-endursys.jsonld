@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "EndurSys",
+  "url": "https://endursys.fr/",
+  "description": "Conseil opérationnel industriel : industrialisation, ramp-up, performance, supply chain et pilotage de projets complexes.",
+  "areaServed": [
+    "France",
+    "Europe",
+    "Asia"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "23 rue Théodore Deck",
+    "postalCode": "75015",
+    "addressLocality": "Paris",
+    "addressCountry": "FR"
+  },
+  "email": "endursys@outlook.com"
+}

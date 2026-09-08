@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061725"/><stop offset="1" stop-color="#154b69"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4fafc"/><stop offset="1" stop-color="#8ea8b6"/></linearGradient>
+</defs>
+<rect width="1200" height="760" rx="32" fill="url(#bg)"/>
+<g opacity=".15" stroke="#86dcee"><path d="M0 120H1200M0 260H1200M0 400H1200M0 540H1200M0 680H1200"/><path d="M140 0V760M380 0V760M620 0V760M860 0V760M1100 0V760"/></g>
+<!-- machined product -->
+<g transform="translate(74 286)"><path d="M34 90L118 24h278l91 70v214l-88 66H121L34 308z" fill="url(#metal)" stroke="#dceaf0" stroke-width="5"/><circle cx="266" cy="198" r="95" fill="#153a50" stroke="#67d4ed" stroke-width="7"/><circle cx="266" cy="198" r="42" fill="#061722" stroke="#cfE5ec" stroke-width="5"/><g fill="#607b8a"><circle cx="108" cy="142" r="21"/><circle cx="422" cy="142" r="21"/><circle cx="108" cy="267" r="21"/><circle cx="422" cy="267" r="21"/></g></g>
+<!-- consumer electronics product -->
+<g transform="translate(442 96)"><rect width="250" height="288" rx="54" fill="url(#metal)" stroke="#84a9b8" stroke-width="5"/><circle cx="125" cy="95" r="58" fill="#0c2b3f"/><circle cx="104" cy="89" r="8" fill="#5dd6ee"/><circle cx="146" cy="89" r="8" fill="#5dd6ee"/><path d="M95 126h60" stroke="#5dd6ee" stroke-width="7" stroke-linecap="round"/><circle cx="70" cy="210" r="22" fill="#718b98"/><circle cx="125" cy="210" r="22" fill="#168fbe"/><circle cx="180" cy="210" r="22" fill="#718b98"/></g>
+<!-- robot -->
+<g transform="translate(760 110)"><rect x="80" y="18" width="180" height="126" rx="58" fill="url(#metal)" stroke="#7fc0d5" stroke-width="5"/><rect x="112" y="55" width="116" height="52" rx="23" fill="#0c2739"/><circle cx="145" cy="81" r="9" fill="#5dd6ee"/><circle cx="196" cy="81" r="9" fill="#5dd6ee"/><path d="M98 166q72-32 144 0l32 184q-104 54-208 0z" fill="url(#metal)" stroke="#76b9d0" stroke-width="4"/><circle cx="170" cy="261" r="20" fill="#168fbe"/><path d="M95 216L43 348M246 216l57 132" stroke="#dce9ef" stroke-width="34" stroke-linecap="round"/><path d="M127 359l-18 124M212 359l22 124" stroke="#dce9ef" stroke-width="40" stroke-linecap="round"/></g>
+<!-- trajectory -->
+<path d="M120 652C348 624 520 568 671 482C830 391 931 318 1080 176" fill="none" stroke="#5ad7ef" stroke-width="9" stroke-linecap="round"/>
+<path d="M1043 178l53-15-18 50" fill="none" stroke="#5ad7ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Segoe UI,Arial" font-size="20" font-weight="700"><g fill="#071a2b" opacity=".88"><rect x="86" y="672" width="165" height="44" rx="12"/><rect x="388" y="588" width="150" height="44" rx="12"/><rect x="690" y="448" width="135" height="44" rx="12"/><rect x="930" y="239" width="101" height="44" rx="12"/></g><g fill="#d8f4fa"><text x="106" y="701">PROTOTYPE</text><text x="407" y="617">PRÉSÉRIE</text><text x="710" y="477">RAMP-UP</text><text x="948" y="268">SÉRIE</text></g></g>
+</svg>

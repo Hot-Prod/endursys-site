@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 120" role="img" aria-labelledby="t d">
+<title id="t">EndurSys</title><desc id="d">Logo EndurSys, trajectoire de l'innovation à la production industrielle</desc>
+<defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#0b2c4d"/><stop offset="1" stop-color="#2bb6e8"/></linearGradient></defs>
+<g transform="translate(8 10)" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<path d="M42 2 L10 20 L10 66 L42 84 L72 68"/>
+<path d="M26 28 H49 M26 45 H43"/>
+<path d="M30 67 C43 59 49 57 57 48 C65 39 68 26 79 18 L93 7"/>
+<path d="M78 8 H94 V24"/>
+</g>
+<text x="122" y="60" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="750" letter-spacing="2" fill="#0b1f33">ENDUR<tspan fill="#188ec1">SYS</tspan></text>
+<text x="124" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.2" fill="#587083">DE L’INNOVATION À LA PRODUCTION INDUSTRIELLE</text>
+</svg>

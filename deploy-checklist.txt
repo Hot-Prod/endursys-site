@@ -9,3 +9,6 @@ CHECKLIST AVANT PUSH
 [ ] Commit / push GitHub
 [ ] Activer GitHub Pages main / root
 [ ] Tester HTTPS et formulaire sur URL publique
+
+[ ] Vérifier que FormSubmit est activé pour endursys@outlook.com (première soumission)
+[ ] Tester la réception + redirection merci.html
