@@ -1,0 +1,28 @@
+# Manifeste /Site — contrôle archive P0-029
+# Généré le 2026-09-12 depuis Hot-Prod/endursys-site (branche claude/endursys-it-roadmap-851yuq, commit e22b821)
+# Usage : après dépôt du ZIP dans OneDrive EndurSys/99_ARCHIVES/Site_GitHub_duplique_2026-09-11/,
+#         comparer chemin + taille de chaque ligne. Aucun écart toléré avant suppression de /Site.
+#
+    OCTETS  CHEMIN
+      9459  Site/a-propos.html
+     47846  Site/assets/apple-touch-icon.png
+      6621  Site/assets/favicon-16.png
+     53052  Site/assets/favicon-192.png
+      8207  Site/assets/favicon-32.png
+     39953  Site/assets/logo-mark.png
+      4994  Site/confidentialite.html
+      7110  Site/contact.html
+      7126  Site/expertises.html
+      8077  Site/favicon.svg
+     13545  Site/index.html
+      4839  Site/mentions-legales.html
+      3867  Site/merci.html
+      5702  Site/methode.html
+      5608  Site/missions.html
+        70  Site/robots.txt
+       958  Site/script.js
+       616  Site/sitemap.xml
+     12941  Site/style.css
+#
+# TOTAL FICHIERS : 19
+# TOTAL OCTETS   : 240591
