@@ -271,3 +271,40 @@ D1 et D2 n'engagent aucune dépense, aucune publication et sont réversibles. D3
 - `.ops/manifeste-site-archive-2026-09-11.txt` — manifeste de contrôle `/Site` (19 fichiers, 240 591 octets), à opposer au ZIP déposé lundi.
 
 **Note d'exposition** : ce dépôt est publié tel quel par GitHub Pages. Tout fichier ajouté doit être considéré comme public une fois fusionné sur `main`. Ces deux fichiers `.ops/` sont volontairement maintenus hors de `main` ; à vérifier après la prochaine mise en production si leur fusion devenait nécessaire.
+
+---
+
+## Journal d'exécution
+
+### Phase 0 — exécutée le 12/09/2026, sur GO Laurent (D1 + D2)
+
+| # | Statut | Preuve |
+|---|---|---|
+| 0.1 | **Fait** | Claude Code désigné writer GitHub : accès write vérifié, 2 commits poussés. Tranche le DÉSACCORD PARTIEL du Change Log. |
+| 0.2 | **Fait** | `08b8c7e` — 13 fichiers (et non 11 : `assets/schema-endursys.jsonld` manquait au relevé initial). |
+| 0.3 | **Fait** | `9291b52` — GA4 sous consentement bloquant + section « Mesure d'audience » dans confidentialite.html. |
+| 0.4 | **Fait** | Doublon P0-034 corrigé (→ **P0-039**) ; bloc « Pilotage IA/IT » du Tableau de bord rafraîchi. |
+| 0.5 | Repris par P0-036 | La boucle d'amélioration coordonnée existait déjà côté ChatGPT ; Claude s'y est branché plutôt que d'ouvrir une routine concurrente. |
+
+**Validation** : 25 contrôles dans Chromium sur les 11 pages racine, tous PASS. Aucune requête analytics avant consentement ni après refus, y compris après rechargement ; une seule balise gtag par page ; `generate_lead` uniquement sur merci.html ; `form_start` une seule fois par formulaire ; `booking_click` sans doublon avec `assets/site.js` ; formulaire, redirection et champs intacts.
+
+**Non fait, volontairement** :
+
+- Aucune fusion vers `main`. Le périmètre accordé est « préparation branche » ; la fusion est une publication externe et reste une décision de Laurent.
+- Aucune PR ouverte (T8 de P1-027) : hors du périmètre demandé.
+- `/Site` non supprimé malgré l'autorisation générale d'override : le contrôle d'archive de P0-029 porte sur 19 fichiers / 240 591 octets et doit rester opposable lundi soir. Supprimer avant l'archive retirerait la seule référence de comparaison.
+- Aucune routine planifiée désactivée : voir A1 ci-dessous, arbitrage nécessaire.
+
+### Constat nouveau — les tâches planifiées
+
+12 routines actives, dont **5 paires de doublons** (lecture de Queue, revue hebdo EndurSys, préparation HPI/Mistral, contrôle mensuel, brief du matin) et une routine « Brief matinal — emails importants » dont la dernière exécution a échoué (ABANDONED) **sans que rien ne le signale**.
+
+Le watcher de Queue tourne toutes les heures, soit 24 passages par jour, sur une file qui était entièrement bloquée sur Laurent. C'est le coût récurrent le plus évitable du système aujourd'hui, et la meilleure illustration du besoin de la règle R2.
+
+Détail et recommandations : commande **P0-036 — Session coordonnée d'amélioration EndurSys**.
+
+### Reste à faire
+
+1. **GO fusion Laurent** → vérification GA4 en temps réel, test de réception FormSubmit sur laurent@endursys.fr, puis Search Console.
+2. **Arbitrage A1** sur les 5 paires de routines en doublon.
+3. **Lundi soir** : archive `/Site` contrôlée contre le manifeste, puis suppression de `/Site`, `style.css` et `script.js` racine dans le même commit.
