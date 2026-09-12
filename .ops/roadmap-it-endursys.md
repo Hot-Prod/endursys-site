@@ -304,6 +304,23 @@ Le watcher de Queue tourne toutes les heures, soit 24 passages par jour, sur une
 
 Détail et recommandations : commande **P0-036 — Session coordonnée d'amélioration EndurSys**.
 
+### Automatisation — état au 12/09, fin de journée
+
+**Fait**
+
+- PR #1 ouverte et **surveillée** : les commentaires, revues et événements GitHub arrivent directement dans la session Claude.
+- Routine « EndurSys — Sync reporting & exceptions » entièrement spécifiée : escalade `WAITING_LAURENT` par ancienneté (R2), capture des leads `[ESYS-LEAD][SITE]` → CRM avec idempotence sur `internetMessageId` (second volet de P1-021, jamais branché), santé des routines, réconciliation Queue ↔ Roadmap ↔ Actions. Silencieuse quand il n'y a rien à dire.
+
+**Bloqué, avec le contournement fourni**
+
+La routine a été créée puis **supprimée dans la foulée** : la surface Claude Code ne peut pas attacher de connecteurs à une routine. Elle se serait réveillée lundi à 9h15 sans accès à Notion ni Outlook, et n'aurait rien produit — précisément le mode d'échec silencieux qu'elle est censée détecter. Laisser en place une automatisation qui ne peut pas travailler aurait été pire que de ne rien créer.
+
+Spécification et prompt prêt à coller : page Notion **« Routine à créer — Sync reporting & exceptions »**, à créer depuis claude.ai → Routines, avec les connecteurs Notion et Microsoft 365. Deux minutes.
+
+**Non fait, faute d'information**
+
+Les prompts des 12 routines existantes ne sont pas exposés par l'API. Impossible de déterminer laquelle de chaque paire est réellement redondante sans les lire. **Aucune routine n'a été désactivée** : couper la mauvaise casserait un flux qui fonctionne. A1 reste à arbitrer, en une passe, depuis l'interface Routines.
+
 ### Reste à faire
 
 1. **GO fusion Laurent** → vérification GA4 en temps réel, test de réception FormSubmit sur laurent@endursys.fr, puis Search Console.
