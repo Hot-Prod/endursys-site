@@ -288,10 +288,11 @@ D1 et D2 n'engagent aucune dépense, aucune publication et sont réversibles. D3
 
 **Validation** : 25 contrôles dans Chromium sur les 11 pages racine, tous PASS. Aucune requête analytics avant consentement ni après refus, y compris après rechargement ; une seule balise gtag par page ; `generate_lead` uniquement sur merci.html ; `form_start` une seule fois par formulaire ; `booking_click` sans doublon avec `assets/site.js` ; formulaire, redirection et champs intacts.
 
+**Revue** : PR ouverte à la demande de Laurent — https://github.com/Hot-Prod/endursys-site/pull/1, 4 commits, **non fusionnée**. P1-027 close en PASS T1–T8.
+
 **Non fait, volontairement** :
 
-- Aucune fusion vers `main`. Le périmètre accordé est « préparation branche » ; la fusion est une publication externe et reste une décision de Laurent.
-- Aucune PR ouverte (T8 de P1-027) : hors du périmètre demandé.
+- Aucune fusion vers `main`. La fusion est une publication externe et reste une décision de Laurent.
 - `/Site` non supprimé malgré l'autorisation générale d'override : le contrôle d'archive de P0-029 porte sur 19 fichiers / 240 591 octets et doit rester opposable lundi soir. Supprimer avant l'archive retirerait la seule référence de comparaison.
 - Aucune routine planifiée désactivée : voir A1 ci-dessous, arbitrage nécessaire.
 
