@@ -126,10 +126,30 @@
     banner = null;
   }
 
+  // Retrait du consentement : GA passe en « denied » et les cookies _ga
+  // déjà déposés sont supprimés (sinon le retrait resterait sans effet).
+  function clearGACookies() {
+    var host = window.location.hostname;
+    document.cookie.split(";").forEach(function (c) {
+      var name = c.split("=")[0].trim();
+      if (name.indexOf("_ga") !== 0) return;
+      ["", "; domain=" + host, "; domain=." + host.replace(/^www\./, "")].forEach(function (d) {
+        document.cookie = name + "=; Max-Age=0; path=/" + d;
+      });
+    });
+  }
+
   function decide(value) {
     writeChoice(value);
     removeBanner();
-    if (value === GRANTED) loadGA();
+    if (value === GRANTED) {
+      loadGA();
+    } else {
+      if (gaLoaded && typeof window.gtag === "function") {
+        window.gtag("consent", "update", { analytics_storage: DENIED });
+      }
+      clearGACookies();
+    }
   }
 
   function showBanner() {
