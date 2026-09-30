@@ -2,7 +2,7 @@
 
 Version préparée le 07/09/2026 pour déploiement GitHub Pages.
 
-Dépôt cible actuel : `https://github.com/Hot-Prod/Webpage`.
+Dépôt : `https://github.com/Hot-Prod/endursys-site` — publié via GitHub Pages sur `https://endursys.fr/` (fichier `CNAME`).
 
 ## Contenu
 - `index.html` : accueil
@@ -13,6 +13,8 @@ Dépôt cible actuel : `https://github.com/Hot-Prod/Webpage`.
 - `a-propos.html`
 - `contact.html` + `merci.html`
 - `mentions-legales.html` / `confidentialite.html`
+- `faq.html` : questions fréquentes (balisage `FAQPage`)
+- `llms.txt` : résumé du site pour les assistants IA
 - `assets/` : CSS, JS, logo et illustrations locales
 - `sitemap.xml` / `robots.txt`
 
@@ -24,22 +26,20 @@ Dépôt cible actuel : `https://github.com/Hot-Prod/Webpage`.
 5. Tester toutes les pages + le formulaire.
 
 ## Domaine endursys.fr
-Le fichier `CNAME.example` est fourni volontairement sans activation.
-Une fois `endursys.fr` acheté et les DNS configurés, le renommer en `CNAME` puis pousser le changement.
+Actif : DNS chez OVH (A/AAAA GitHub Pages), fichier `CNAME` = `endursys.fr`, HTTPS servi par GitHub Pages.
 
 ## Formulaire
-Le formulaire utilise FormSubmit vers `endursys@outlook.com` et redirige vers `https://endursys.fr/merci.html`.
-Si le domaine n'est pas encore actif lors des tests GitHub Pages, modifier temporairement `_next` dans `contact.html` vers l'URL GitHub Pages de test.
+Le formulaire utilise FormSubmit vers `laurent@endursys.fr` et redirige vers `https://endursys.fr/merci.html`.
 
-## Points à vérifier avant publication finale
-- Activation du domaine et HTTPS.
-- Réception d'un test réel du formulaire.
-- Exactitude des mentions légales / TVA.
-- Confidentialité des chiffres des études de cas (déjà validés par Laurent dans la conversation source).
+## Mesure d'audience
+GA4 (`assets/analytics.js`) chargé uniquement après consentement explicite (bandeau Accepter / Refuser).
+
+## Points encore ouverts
+- Fiabilité du formulaire FormSubmit (test réel à renouveler).
+- Direction graphique des visuels (remplacement des illustrations SVG).
 
 
 ## Mise à jour visuelle et études de cas
 - Visuels locaux originaux, sans photo client ni dépendance externe.
 - Les trois études de cas ont été resserrées en format Situation / Risque / Intervention / Impact.
-- Adresse de contact et endpoint FormSubmit : `endursys@outlook.com`.
-- Lors du premier envoi FormSubmit vers cette adresse, confirmer l’activation reçue sur la boîte EndurSys si FormSubmit la demande.
+- Adresse de contact et endpoint FormSubmit : `laurent@endursys.fr` (activation FormSubmit confirmée le 20/09/2026).

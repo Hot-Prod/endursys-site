@@ -1,0 +1,25 @@
+# EndurSys
+
+> EndurSys est un cabinet de conseil opérationnel industriel basé à Paris (France). Il sécurise le passage de l'innovation à la production industrielle : industrialisation / NPI, ramp-up et performance des opérations, supply chain et fournisseurs, pilotage de projets industriels complexes. Intervention en France, en Europe et en Asie. Dirigé par Laurent Garnier (ingénieur généraliste, Mines ; plus de 15 ans d'expérience).
+
+Les études de cas sont anonymisées ; les chiffres publiés correspondent uniquement à des résultats effectivement obtenus. Aucun visuel ne représente un produit client.
+
+## Pages principales
+
+- [Accueil](https://endursys.fr/): positionnement, expertises, formats d'intervention, résultats
+- [Expertises](https://endursys.fr/expertises.html): industrialisation & NPI, ramp-up & performance, supply chain & fournisseurs, direction industrielle & project recovery
+- [Missions types](https://endursys.fr/missions.html): situations d'intervention et quatre formats standardisés (Industrial Readiness Sprint, Ramp-up Recovery, Industrial Project Recovery, Direction industrielle fractionnée)
+- [Méthode](https://endursys.fr/methode.html): cadrer, diagnostiquer, prioriser, exécuter, pérenniser
+- [Études de cas](https://endursys.fr/cas.html): aéronautique (pré-série → SOP en 6 mois), électronique grand public (40–50k unités/mois), robotique Europe/Chine (20 → 140 robots/semaine, FPY ≈ 50 % → 99 %)
+- [À propos](https://endursys.fr/a-propos.html): parcours et approche
+- [FAQ](https://endursys.fr/faq.html): questions fréquentes
+
+## Contact
+
+- [Contact](https://endursys.fr/contact.html): formulaire de premier cadrage
+- Email : laurent@endursys.fr
+
+## Optional
+
+- [Mentions légales](https://endursys.fr/mentions-legales.html)
+- [Confidentialité](https://endursys.fr/confidentialite.html)
